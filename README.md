@@ -1,17 +1,18 @@
 # lab2_quantization
 
-A new Flutter project.
+Flutter-проект, визуализирующий график синуса на [0, 4], а также его квантизацию на n отрезков квантования и смазанный график на основе квантизированного.
 
-## Getting Started
+В программе есть 3 графика, которые можно отобразить:
+1) График функции y=sin(x) на [0, 4];
+2) Квантизированный график из пункта (1);
+3) Сглаженный график из пункта (2).
 
-This project is a starting point for a Flutter application.
+Также возможно задать кол-во отрезков квантования, ввод в специальное поле, динамическое изменение состояния графика.
 
-A few resources to get you started if this is your first Flutter project:
+Скриншот 1 и 2 графика:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+![Оригинальный+квантизированный](https://user-images.githubusercontent.com/80700464/134747359-07b00626-2aa1-4e8e-b44a-6ecd6fbd8d57.jpg)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# quantization" 
+Скриншот 2 и 3 графика:
+
+![Квантизированный+смазанный](https://user-images.githubusercontent.com/80700464/134747361-ce8dcdad-8073-4bd8-a97e-39379468f905.jpg)
